@@ -32,7 +32,11 @@ END
 ## Plan
 
 [ ] support `.cif`
+
 [ ] support `.xyz`
+
 [ ] export `__str__(format='pdb,xyz,cif')`
+
 [ ] support pytorch (to get backprop/gpu)
+
 [ ] support trajectories [num_frames, num_atoms, 3]
