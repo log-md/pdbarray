@@ -40,3 +40,7 @@ END
 [ ] support pytorch (to get backprop/gpu)
 
 [ ] support trajectories [num_frames, num_atoms, 3]
+
+[ ] have a way to go from residue to atoms (and opposite); e.g. i have residue plddt and need to add them atom/by/atom
+
+[ ] allow string edits (e.g. add plddt)
