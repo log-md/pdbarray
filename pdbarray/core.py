@@ -37,6 +37,9 @@ class PDBArray(np.ndarray):
         obj = coords.view(cls)
         obj.universe = universe
         return obj
+
+    def numpy(self):
+        return self.universe.atoms.positions 
     
     def __array_finalize__(self, obj):
         if obj is None: return
